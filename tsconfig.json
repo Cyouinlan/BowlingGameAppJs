@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                /* Niveau de compatibilité ECMAScript (par exemple, 'ES5' ou 'ES6') */
+      "module": "CommonJS",           /* Système de module (par exemple, 'CommonJS', 'ES6') */
+      "outDir": "./dist",             /* Dossier où seront générés les fichiers JavaScript transpilés */
+      "rootDir": "./src",             /* Dossier où se trouvent les fichiers TypeScript sources */
+      "strict": true,                 /* Activer tous les contrôles stricts de type */
+      "esModuleInterop": true         /* Permettre l'importation de modules CommonJS avec l'import ES6 */
+    },
+    "include": [
+      "src/**/*.ts"                  /* Les fichiers TypeScript à inclure dans la compilation */
+    ],
+    "exclude": [
+      "node_modules"                 /* Les fichiers ou dossiers à exclure de la compilation */
+    ]
+  }
+  
