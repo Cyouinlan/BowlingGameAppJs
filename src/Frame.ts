@@ -2,14 +2,16 @@ export class Frame {
   roll1?: number;
   roll2?: number;
 
-  constructor(roll1?: number) {
-   this.roll1 = roll1;
+  constructor(roll1?: number,roll2?: number) {
+    this.roll1 = roll1;
+    this.roll2 = roll2;
   }
 
   getDisplayedRoll1(): string | number | undefined {
     if(this.roll1 === undefined && this.roll1 != 0){
-        return
+      return
     }
+
     return this.isStrike() ? "X" : this.roll1;
   }
 
@@ -19,6 +21,7 @@ export class Frame {
     } else if(this.roll2 === 10) {
       return "X";
     }
+
     return this.isSpare() ? "/" : this.roll2;
   }
 
