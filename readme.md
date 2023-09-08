@@ -8,6 +8,12 @@ npm run run
 
 ### Exécution des Tests
 
+Prérequis:
+
+```bash
+npm install
+```
+
 Pour exécuter les tests, utilisez la commande suivante :
 
 ```bash
